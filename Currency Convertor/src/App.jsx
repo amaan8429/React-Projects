@@ -69,7 +69,7 @@ function App() {
         </Typography>
       ) : (
         <Typography variant="h5" sx={{ marginTop: "2rem" }}>
-          Please Enter some Currency
+          Please Enter some Amount
         </Typography>
       )}
     </Container>
