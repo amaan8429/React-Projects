@@ -1,6 +1,6 @@
 import "./App.css";
 import { Container, Grid, Typography } from "@mui/material";
-import InputAmount from "./Components/inputAmount";
+import InputAmount from "./Components/InputAmount";
 import SelectCountry from "./Components/SelectCountry";
 import SwitchCountry from "./Components/SwitchCountry";
 import { useEffect, useState } from "react";
