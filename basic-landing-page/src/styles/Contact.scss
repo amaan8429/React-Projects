@@ -1,0 +1,80 @@
+@import "colors";
+
+.contact {
+  background-color: $blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  > main {
+    background-color: $green;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    border-radius: 0 100px 100px 0;
+    color: $blue;
+    margin-top: -100px;
+    > h1 {
+      font-family: $text1;
+      margin: 1rem;
+    }
+    > form {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      margin: 2rem;
+      > div {
+        display: flex;
+        flex-direction: column;
+        margin: 5px;
+        > label {
+          font-family: $text1;
+          font-weight: 600;
+          font-size: 1.5rem;
+          color: $blue;
+          padding-bottom: 7px;
+        }
+        > input {
+          border-color: $blue;
+          height: 1.5rem;
+          padding: 1rem;
+          border-radius: 5px;
+          background-color: $green;
+          border: 1px solid rgba(123, 123, 123, 0.6);
+          outline: none;
+        }
+      }
+    }
+    .btn {
+      background: #013870;
+      background-image: -webkit-linear-gradient(top, #013870, #013870);
+      background-image: -moz-linear-gradient(top, #013870, #013870);
+      background-image: -ms-linear-gradient(top, #013870, #013870);
+      background-image: -o-linear-gradient(top, #013870, #013870);
+      background-image: linear-gradient(to bottom, #013870, #013870);
+      -webkit-border-radius: 28;
+      -moz-border-radius: 28;
+      border-radius: 28px;
+      font-family: $text1;
+      color: #c9d6c7;
+      font-size: 17px;
+      padding: 8px 20px 8px 20px;
+      text-decoration: none;
+      margin-top: 30px;
+    }
+
+    .btn:hover {
+      background: #013a73;
+      background-image: -webkit-linear-gradient(top, #013a73, #043e78);
+      background-image: -moz-linear-gradient(top, #013a73, #043e78);
+      background-image: -ms-linear-gradient(top, #013a73, #043e78);
+      background-image: -o-linear-gradient(top, #013a73, #043e78);
+      background-image: linear-gradient(to bottom, #013a73, #043e78);
+      text-decoration: none;
+      cursor: pointer;
+      opacity: 0.9;
+    }
+  }
+}
